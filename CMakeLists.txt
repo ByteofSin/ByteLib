@@ -25,3 +25,9 @@ set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_STANDARD 20)
 
 #################################################
+# Subdirectories
+add_subdirectory(Utility)
+add_subdirectory(DataStructures)
+add_subdirectory(Logging)
+add_subdirectory(Messaging)
+add_subdirectory(Console)
